@@ -10,7 +10,7 @@ The architecture should solve these problems.
 (c)Reliability – any part of the system can break down.
 (d)Online Query: Look into the support of CEP/ online Query.
 (e)Plug and play. The architecture should be modular. That is, any new component can be plugged in.
-
+```
 We have to think about adding distributed techniques into our architecture.
 
 ![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/original_idea.png)
