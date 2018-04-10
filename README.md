@@ -12,3 +12,5 @@ The architecture should solve these problems.
 (e)Plug and play. The architecture should be modular. That is, any new component can be plugged in.
 
 We have to think about adding distributed techniques into our architecture.
+
+![architecture v1.0](https://github.com/Shreyasramakrishna90/Sterling-Ranch/blob/master/v1.0.png)
