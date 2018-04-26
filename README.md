@@ -32,6 +32,7 @@ b) Air quality data monitoring.
 ![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/smart-city.png)
 
 ***Different computing paradigms***
+
 a) Cloud computing: Amazon EC2 instance.
 
 b) Community Cloud: P2P digital ecosystem.
@@ -39,6 +40,7 @@ b) Community Cloud: P2P digital ecosystem.
 c) Fog computing: Servers maintained in the community.
 
 ***Smart home Data streaming***
+
 The figure below shows in depth architecture and the actors involved in building a smart home data streming architecture. 
 ![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/original_idea.png)
 
@@ -58,6 +60,14 @@ e) Query to display the data, grafana to plot the realtime data ingest.
 
 main.py: This collects the data from aeotec multisensor which uses python-openzwave library. This also has pub-sub zmq model to publish data to InfluxDB instance.
 Influx.py: This starts InfluxDb instance Amazon EC2 instance.
+
+***Results***
+
+The figure below shows the realtime data being stored in the InfluxDB instance. The Aeotec multisensor6 reads luminance, tempearture, humidity, motion sensor, ultraviolet. These values are being recorede in the database as shown.
+![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/distributed_homes.png)
+
+The data being written in the database, is plotted using grafana.
+![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/distributed_homes.png)
 
 ***Architectural challenges***
 
