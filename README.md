@@ -64,10 +64,10 @@ Influx.py: This starts InfluxDb instance Amazon EC2 instance.
 ***Results***
 
 The figure below shows the realtime data being stored in the InfluxDB instance. The Aeotec multisensor6 reads luminance, tempearture, humidity, motion sensor, ultraviolet. These values are being recorede in the database as shown.
-![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/distributed_homes.png)
+![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/influxdata.png)
 
 The data being written in the database, is plotted using grafana.
-![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/distributed_homes.png)
+![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/graph.png)
 
 ***Architectural challenges***
 
