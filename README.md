@@ -3,6 +3,7 @@
 This project aims to provide an architecture to stream and analyse the data collected in smart city. Through this project we demonstrate some important concepts of data collection, streaming, data management and analytics. The overall aim of this work is to provide a reliable and robust infrastructure to build a smart community.
 
 ***Building Blocks***
+
 a) Data Collection: Refers to the sensing stage, where sensors accumulate data. 
 
 b) Data Streaming: Refers to the satge where, the sensed data is transported/ streamed to a data storage, which can be run on the local machine/ cloud.
@@ -25,13 +26,16 @@ e) Plug and play. The architecture should be modular. The system should be able 
 The figure below shows the overall architecture of the smart city,which includes two main parts:
 
 a) Smart home data streaming.
+
 b) Air quality data monitoring.
 
 ![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/smart-city.png)
 
 ***Different computing paradigms***
 a) Cloud computing: Amazon EC2 instance.
+
 b) Community Cloud: P2P digital ecosystem.
+
 c) Fog computing: Servers maintained in the community.
 
 ***Smart home Data streaming***
@@ -39,17 +43,24 @@ The figure below shows in depth architecture and the actors involved in building
 ![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/original_idea.png)
 
 ***Implementation***
+
 a) We have a naive implementation of smart home data streaming and management.
+
 b) Data is collected from my home using Aeotec multisensor, which uses openZwave library.
+
 c) This data is streamed from homes using secured zmq transportation. We have used zmq stonehouse encryption method.
+
 d) This data is transported to an Amazon EC2 instance where InfluxDB instance is running.
+
 e) Query to display the data, grafana to plot the realtime data ingest.
 
 ***Scripts***
+
 main.py: This collects the data from aeotec multisensor which uses python-openzwave library. This also has pub-sub zmq model to publish data to InfluxDB instance.
 Influx.py: This starts InfluxDb instance Amazon EC2 instance.
 
 ***Architectural challenges***
+
 a) Data aggregation from homes to provide privacy.
 ![architecture v1.0](https://github.com/Shreyasramakrishna90/CS-6381-01-Final-Project/blob/master/images/distributed_homes.png)
 
