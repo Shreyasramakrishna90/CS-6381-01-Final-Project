@@ -6,7 +6,7 @@ This project aims to provide an architecture to stream and analyse the data coll
 
 a) Data Collection: Refers to the sensing stage, where sensors accumulate data. 
 
-b) Data Streaming: Refers to the satge where, the sensed data is transported/ streamed to a data storage, which can be run on the local machine/ cloud.
+b) Data Streaming: Refers to the stage where, the sensed data is transported/ streamed to a data storage, which can be run on the local machine/ cloud.
 
 c) Data Management: This refers to the database stage, where the streamed data is going to be stored.
 
