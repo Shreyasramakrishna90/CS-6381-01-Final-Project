@@ -1,6 +1,8 @@
 # Smart City Data Streaming and Analytics 
 
-This project aims to provide an architecture to stream and analyse the data collected in smart city. Through this project we demonstrate some important concepts of data collection, streaming, data management and analytics. The overall aim of this work is to provide a reliable and robust infrastructure to build a smart community.
+***CS 6381: Distributed Systems | Spring 2018 | Vanderbilt University***
+
+This project aims to provide an architecture for management and real-time analysis of sensor data collected from homes in a smart city. We demonstrate these key concepts of data collection, streaming, data management and analytics, with an overall goal to provide a reliable, secure and robust infrastructure for building a 'smart' community.
 
 ***Building Blocks***
 
@@ -16,14 +18,14 @@ e) Computing Paradigm: The main focus of this work is to focus on different comp
 
 ***Architecture Challenges***
 
-The architecture we propose should satisfy the following requirements:
+The proposed architecture should satisfy the following requirements:
 a) Location transparency: The servers running the instance of database, should be migratable and available at any location.
 b) Data protection: Data should be encrypted while being moved to the server.
 c) Reliability: Any part of the architecture can break down, we need to think about making the system reliable and available.
 d) Online Query: We should be able to perform some online query on the data using stream processing/ Complex Event Processing.
 e) Plug and play. The architecture should be modular. The system should be able to integrateany new component without much of a problem.
 
-The figure below shows the overall architecture of the smart city,which includes two main parts:
+The figure below shows the overall architecture of the smart city, which includes two main parts:
 
 a) Smart home data streaming.
 
