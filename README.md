@@ -12,7 +12,7 @@ c) Data Management: This refers to the database stage, where the streamed data i
 
 d) Data Analytics: Performing query/ anomaly detection on the data to provide some data related feedback to the user.
 
-e) Computing Paradigm: The main focus of this work is to focus of different computing paradigms of cloud/edge/Fog. 
+e) Computing Paradigm: The main focus of this work is to focus on different computing paradigms of cloud/edge/Fog. 
 
 ***Architecture Challenges***
 
